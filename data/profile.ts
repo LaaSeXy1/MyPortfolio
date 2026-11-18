@@ -1,0 +1,62 @@
+export const profile = {
+  name: "Teng Chantola",
+  roles: [
+    "Data Management",
+    "Software Engineering",
+    "Artificial Intelligence",
+    "Cybersecurity",
+    "Machine Learning",
+    "Data Science",
+  ],
+  quote:
+    "Building meaningful digital experiences through technology, creativity, and continuous learning.",
+  availability: "Open to new opportunities",
+  location: "Phnom Penh, Cambodia",
+  email: "tengchantola@gmail.com",
+  links: {
+    github: "https://github.com/LaaSexy",
+    linkedin: "https://www.linkedin.com/in/tengchantola/",
+    telegram: "https://t.me/Tengchantola",
+    facebook: "https://web.facebook.com/Tengchantolaa",
+    tiktok: "https://www.tiktok.com/@laasexy_1",
+    twitter: "https://x.com/TengChantola",
+    bluesky: "https://bsky.app/profile/tengchantola.bsky.social",
+  },
+  cv: "/cv/Teng Chantola - CV & CL.pdf",
+  photo: "/images/image.png",
+  about: [
+    "I'm an Data Management based in Phnom Penh with a Bachelor's degree in Financial Technology from ACLEDA University of Business.",
+    "My path started with web application development and an internship in IT support, then grew into building a POS system as a Junior Developer at Pointhub, covering both frontend and backend work.",
+    "Today I work in Data Management at ACLEDA Bank Plc., using Oracle Database, SQL and PL/SQL for data processing and reporting.",
+    "I enjoy learning new technologies and I'm working toward a future in data science, AI and machine learning.",
+  ],
+  highlights: [
+    "Data Management at ACLEDA Bank Plc.",
+    "POS system development at Pointhub",
+    "Full-stack web projects with Django, Next.js and Node.js",
+  ],
+  interests: [
+    "Web Development",
+    "Data Science",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "FinTech",
+    "Cybersecurity",
+    "Cloud Computing",
+    "Software Engineering",
+  ],
+  stats: [
+    { label: "Featured projects", value: 5 },
+    { label: "Roles & internships", value: 5 },
+    { label: "Areas of interest", value: 8 },
+  ],
+};
+export const nav = [
+  { id: "home", label: "Home" },
+  { id: "about", label: "About" },
+  { id: "experience", label: "Experience" },
+  { id: "skills", label: "Skills" },
+  { id: "projects", label: "Projects" },
+  { id: "education", label: "Education" },
+  { id: "contact", label: "Contact" },
+];

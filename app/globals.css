@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Theme */
+:root {
+  --bg: #f7fcf8;
+  --card: #ffffff;
+  --fg: #14251a;
+  --mute: #647568;
+  --acc: #16a34a;
+  --acc2: #22c55e;
+  --line: #e0ede3;
+}
+
+/* Dark Theme */
+.dark {
+  --bg: #0b1510;
+  --card: #122019;
+  --fg: #f0fdf4;
+  --mute: #a3b8a8;
+  --acc: #4ade80;
+  --acc2: #86efac;
+  --line: #263c2e;
+}
+
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  overflow-x: hidden;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* Selection */
+::selection {
+  background: #bbf7d0;
+  color: #14532d;
+}
+
+/* Focus Accessibility */
+:focus-visible {
+  outline: 2px solid var(--acc);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Smooth Theme Transitions */
+* {
+  border-color: var(--line);
+}
+
+/* Reduced Motion Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
